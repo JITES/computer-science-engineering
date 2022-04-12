@@ -15,3 +15,6 @@ cask "postman"
 cask "slack"
 cask "visual-studio-code"
 cask "zoom"
+
+
+brew bundle install --file brewfile.txt
