@@ -18,3 +18,7 @@ cask "zoom"
 
 
 brew bundle install --file brewfile.txt
+
+
+echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> ~/.zprofile
+source  ~/.zprofile
